@@ -81,8 +81,8 @@ class CreatePhotoView(CreateView):
             HttpResponseRedirectオブジェクト:
                 スパークラスのform_valid()の戻り値を返すことで、
                 success_urlで設定されているURLにリダイレクトさせる
-        
-        
+
+
         '''
         # commit=FalseにしてPOSTされたデータを所得
         postdata = form.save(commit=False)
